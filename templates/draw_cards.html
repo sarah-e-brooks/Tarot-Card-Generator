@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawn Tarot Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .cards-container {
+            display: flex; /* Enables flexbox layout */
+            flex-wrap: wrap; /* Allows cards to wrap to the next line if there isn't enough space */
+            gap: 20px; /* Adds space between cards */
+            justify-content: center; /* Centers the cards horizontally */
+            margin: 20px; /* Optional: adds margin around the container */
+        }
+        .card {
+            background-color: #fff; /* Card background color */
+            border: 1px solid #ddd; /* Border color and style */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+            padding: 16px; /* Padding inside the card */
+            width: 300px; /* Fixed width for each card */
+            height: 450px; /* Fixed height for each card */
+            text-align: center; /* Center align text */
+            box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+            overflow: hidden; /* Hides any content that exceeds the card's boundary */
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .card h2, .card p {
+            margin: 0; /* Removes default margin for headings and paragraphs */
+            padding: 0; /* Removes default padding */
+            text-overflow: ellipsis; /* Adds ellipsis (...) for overflowing text */
+            white-space: nowrap; /* Prevents text from wrapping */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Cards</h1>
+    <div class="cards-container">
+        {% for card in dealt_cards %}
+        <div class="card">
+            <h2>{{ card.card_name }}</h2>
+            <img src="{{ card.image_url }}" alt="{{ card.card_name }}" style="width: 200px; height: 350px;">
+            <p>{{ card.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="button-container">
+        <button onclick="window.location.href='/draw_cards';">Draw Again</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+[
+    {
+        "name": "The Fool", 
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627723/IMG_4356_nyemfq.jpg",                       
+        "description": "New beginnings, innocence, adventure"
+    },
+    {
+        "name": "The Magician",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627753/IMG_4360_maopw4.jpg",                        
+        "description": "Inventive, manifestation, true potential"
+    },
+    {
+        "name": "The High Priestess",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627674/IMG_4348_bznyc2.jpg",                        
+        "description": "Intuition, serenity, divine goddess"
+    },
+    {
+        "name": "The Empress",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627759/IMG_4380_lddcp2.jpg",                           
+        "description": "Goddess, femininity, mother earth"
+    },
+    {
+        "name": "The Empreror",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627708/FullSizeRender_wjvtvz.jpg",                           
+        "description": "Authority, ambition, power"
+    },
+    {
+        "name":"The Hierophant",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627775/IMG_4382_hks9oa.jpg",                      
+        "description": "Conventional, institution, tradition"
+    },
+    {
+        "name": "The Lovers",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627651/IMG_4384_vvwqho.jpg",                           
+        "description": "Love, alignment, choices"
+    },
+    {
+        "name": "The Chariot",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627716/IMG_4374_p3jtp3.jpg",        
+        "description": "Victory, willpower, inner drive"
+    },
+    {
+        "name": "Strength",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627702/IMG_4373_g33nwp.jpg",          
+        "description": "Fierce, endurance, courage"
+    },
+    {
+        "name": "The Hermit",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627686/IMG_4351_ko0k8h.jpg",                           
+        "description": "Soul-Searching, reflection, truth"
+    },
+    {
+        "name": "Wheel of Fortune",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627617/IMG_4340_eiqfzq.jpg",                     
+        "description": "Change, fate, karma"
+    },
+    {
+        "name": "Justice",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627667/IMG_4386_rjhtyt.jpg",                     
+        "description": "Law, objective, fair"
+    },
+    {
+        "name": "The Hanged Woman",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627693/IMG_4371_ix6gz8.jpg",                       
+        "description": "Sacrifice, patience, suspension"
+    },
+    {
+        "name": "Death",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627738/IMG_4358_sqmhoi.jpg",               
+        "description": "Change, ending, rebirth"
+    },
+    {
+        "name": "Temperance",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627767/IMG_4363_oqnh7j.jpg",      
+        "description": "Balance, patience, synergy"
+    },
+    {
+        "name": "The Devil",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627641/IMG_4341_wlwqfr.jpg",           
+        "description": "Addiction, Enslavement, Fears"
+    },
+    {
+        "name": "The Tower",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627657/IMG_4344_owxtwr.jpg",
+        "description": "Destruction, abrupt change, lightning"
+    },
+    {
+        "name": "The Star",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627679/IMG_4368_w0guwo.jpg",            
+        "description": "Healing, inspiration, serenity"
+    },
+    {
+        "name": "The Moon",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627698/IMG_4353_jpjwqk.jpg",                                    
+        "description": "Surreal, Subconscious, shadow self"
+    },
+    {
+        "name": "The Sun",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627731/IMG_4377_otmmai.jpg",                                   
+        "description": "Positive vibes, warmth, radiance"
+    },
+    {
+        "name": "Judgment",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627665/IMG_4364_gpeldx.jpg",                                 
+        "description": "Absolution, evaluation, reflection"
+    },
+    {
+        "name": "The World",
+        "image_url": "https://res.cloudinary.com/dotgb4ggr/image/upload/v1724627745/IMG_4378_we0wia.jpg",                                  
+        "description": "Completion, achievement, unity"
+    }
+]
